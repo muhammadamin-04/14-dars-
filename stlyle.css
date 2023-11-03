@@ -1,0 +1,35 @@
+.trafficlight{
+    width: 110px;
+    height: 360px;
+    margin: auto;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.line{
+    width: 20px;
+    height: 500px;
+    margin: auto;
+    background-color: black;
+}
+
+.round{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 20px auto;
+    border: 2px solid white;
+    transition: 1s;
+    opacity: 0.4;
+}
+.round:hover{
+    opacity: 1  ;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
